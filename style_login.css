@@ -4,9 +4,20 @@
     box-sizing: border-box;
 }
 body{
-    background-color: black;
-    font-family: Georgia, 'Times New Roman', Times, serif;
+    background-color: darkgray;
 }
+
+
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 20px;
+    padding-left: 5%;
+    padding-right: 5%;
+    font-weight: bold;
+}
+
 .form-login{
     width: 400px;
     background: rgb(174, 1, 1);
@@ -33,10 +44,10 @@ body{
     border: 1px solid darkred;
     margin-bottom: 15px;
     padding: 11px 10px;
-    background: rgb(29, 29, 29);
+    background: darkgray;
     font-size: 14px;
     font-weight: bold;
-    color: white;
+    color: black;
 }
 
 .bottons{
@@ -67,7 +78,7 @@ body{
 .logo{
     width: 30px;
     margin-left: 20px;
-    border-radius: 10px;
+    border-radius: 100%;
 }
 
 ul li{
@@ -85,15 +96,7 @@ a:hover{
 }
 
 
-header {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    padding-top: 20px;
-    padding-left: 5%;
-    padding-right: 5%;
-    font-weight: bold;
-}
+
 
 .bottons:hover{
     text-decoration: underline;
