@@ -6,7 +6,8 @@
   
   
   body{
-    background-color: darkgray;
+    background: linear-gradient(to right, #ff0000, #ca141492, #981616c8);
+    font-family: 'Poppins', sans-serif;
   }
   
   nav {
@@ -46,6 +47,7 @@
   padding: 30px;
   border-radius: 4px;
   box-shadow: 7px 13px 37px darkred;
+  color: whitesmoke;
 }
 
 .form-contact h5 {
@@ -68,7 +70,7 @@ input,
 textarea {
   padding: 10px;
   margin-bottom: 15px;
-  background-color: darkgrey;
+  background-color: whitesmoke;
   border: 1px solid #ccc;
   border-radius: 4px;
 }
